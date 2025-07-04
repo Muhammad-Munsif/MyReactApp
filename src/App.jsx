@@ -9,6 +9,7 @@ function App() {
   return (
     <div className="bg-rose-500 text-2xl c">
       <h1>Hello world this is my first react app i am very glad to start react jss</h1>
+      <h1>Hi this is another heading i added</h1>
     </div>
   );
 }
