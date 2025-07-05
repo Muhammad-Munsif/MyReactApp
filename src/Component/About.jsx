@@ -3,7 +3,7 @@ import React from "react";
 const About = () => {
   return (
     <div>
-      <div className="flex justify-evenly gap-12 py-12 w-full max-w-5xl mx-auto">
+      <div className="flex justify-evenly gap-12 py-12 w-full max-w-5xl mx-auto border-b-amber-100">
         <div>
           <img
             src="/images/about-img.png"
@@ -22,7 +22,7 @@ const About = () => {
             engineer innovative, customizable, and sustainable software
             solutions. The following are tech stacks that I use regularly:
           </p>
-          <div className="flex gap-5 mt-6">
+          <div className="flex gap-5 my-3 ">
             <div className="flex gap-2 items-center flex-col">
               <img src="/images/react-img.png" alt="img not found" className="w-10 h-10" />
               <p className="text-[#888888]">React</p>
@@ -52,8 +52,10 @@ const About = () => {
               <p className="text-[#888888]">GIS</p>
             </div>
           </div>
+          <div>
+            <button className="font-semibold text-[#55E5A4] py-2 px-5 border border-[#55E5A4]">Download CV</button>
+          </div>
         </div>
-        <div></div>
       </div>
     </div>
   );
