@@ -1,9 +1,16 @@
 import "./App.css";
+import About from "./Component/About";
+import Contact from "./Component/Contact";
+import Footer from "./Component/Footer";
+import Header from "./Component/Header";
 
 function App() {
  return (
-  <div className="bg-rose-500 text-2xl c">
-   <h1>Hi I am Azam i just change the munsif code hhhhhhh</h1>
+  <div  className="min-h-screen bg-[#151C25]">
+   <Header />
+   <About />
+   <Contact />
+   <Footer />
   </div>
  );
 }
