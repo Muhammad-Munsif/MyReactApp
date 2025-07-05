@@ -16,43 +16,35 @@ const Project = () => {
         </button>
       </div>
       {/* using Grid */}
-      <div className="grid grid-cols-2 ">
+      <div className="grid grid-cols-2 bg-indigo-900">
 
         {/* division one code  */}
-        <div className="w-">
-          <img src="/images/rect-img1.png" alt="rect-img1 not found" />
+        <div className="flex justify-center items-center flex-col">
+          <img src="/images/rect-img1.png" alt="rect-img1 not found" className="w-3xs h-3xs "/>
           <div>
-            <h1 className="text-center">Onari B Website</h1>
+            <h1 className="text-center text-white">Onari B Website</h1>
             <p className="text-center text-[#A9A9A9]">
               Working closely with the ONORI-B team, I collaborated to ensure
               that the website not only met but exceeded their expectations.
             </p>
             <div className="py-5">
-              <h3 className="text-center text-xl">Technologies Used</h3>
-              <div className="flex gap-2 items-center flex-col">
+              <h3 className="text-center text-xl text-white">Technologies Used</h3>
+              <div className="flex items-center justify-center py-2 gap-2">
                 <img
                   src="/images/react-img.png"
                   alt="img not found"
                   className="w-10 h-10"
                 />
-                <p className="text-[#888888]">React</p>
-              </div>
-              
-              <div className="flex gap-2 items-center flex-col">
                 <img
                   src="/images/js-img.png"
                   alt="img not found"
                   className="w-10 h-10"
                 />
-                <p className="text-[#888888]">JavaScript</p>
-              </div>
-              <div className="flex gap-2 items-center flex-col">
                 <img
                   src="/images/tailwind-img.png"
                   alt="img not found"
                   className="w-10 h-10"
                 />
-                <p className="text-[#888888]">Tailwind</p>
               </div>
             </div>
             <div className="flex items-center justify-center">
@@ -64,7 +56,7 @@ const Project = () => {
         {/* closed division one code */}
 
         {/* division two */}
-        <div>
+        {/* <div>
           <img src="/images/rect-img2.png" alt="rect-img1 not found" />
           <div>
             <h1 className="text-center">Google Earth Tweet Map</h1>
@@ -105,11 +97,11 @@ const Project = () => {
                 <button className="border border-white py-2 px-4">Visit Site</button>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* closed division two code */}
 
         {/* division three code */}
-        <div>
+        {/* <div>
           <img src="/images/rect-img3.png" alt="rect-img1 not found" />
           <div>
             <h1 className="text-center">Methods in Spatial Analysis</h1>
@@ -150,11 +142,11 @@ const Project = () => {
                 <button className="border border-white py-2 px-4">Visit Site</button>
             </div>
           </div>
-        </div>
+        </div> */}
         {/*closed  division three code */}
 
         {/*division four code */}
-        <div>
+        {/* <div>
           <img src="/images/rect-img4.png" alt="rect-img1 not found" />
           <div>
             <h1 className="text-center">Onari B Website</h1>
@@ -195,7 +187,7 @@ const Project = () => {
                 <button className="border border-white py-2 px-4">Visit Site</button>
             </div>
           </div>
-        </div>
+        </div> */}
         {/*closed  division four code */}
         <div>
             <button className=" text-center font-semibold text-[#55E5A4] py-2 px-5 border border-[#55E5A4]">View All Projects</button>
